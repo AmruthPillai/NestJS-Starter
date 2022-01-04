@@ -1,8 +1,8 @@
 {
-  "name": "reactive-resume",
+  "name": "nextjs-starter",
   "version": "0.0.1",
   "description": "",
-  "author": "Amruth Pillai <im.amruth@gmail.com>",
+  "author": "",
   "private": true,
   "license": "MIT",
   "scripts": {
