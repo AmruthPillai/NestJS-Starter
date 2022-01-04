@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": false,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@/auth/*": ["auth/*"],
+      "@/config/*": ["config/*"],
+      "@/database/*": ["database/*"],
+      "@/decorators/*": ["decorators/*"],
+      "@/filters/*": ["filters/*"],
+      "@/users/*": ["users/*"],
+      "@/mail/*": ["mail/*"]
+    }
+  }
+}
